@@ -1,0 +1,140 @@
+html{
+scroll-behavior: smooth;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  overflow-x: hidden;
+  
+  
+}
+
+nav {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  padding: 0.5rem 7%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+nav h1{
+  font-size: 1.5rem;
+  font-weight: 200px;
+  color: #DAD4B5;
+  text-align: left;
+}
+
+.navbar a{
+  color: #DAD4B5;
+  text-decoration: none;
+  padding: 1rem;
+  font-size: 1.3rem;
+  
+}
+
+.navbar a:hover{
+  color: #fff;
+  transition: w;
+  
+}
+
+header {
+  background-color: #982B1C;
+  color: #ffffff;
+  padding: 5px;
+  text-align: center;
+}
+
+
+section {
+  padding: 150px 0;
+  text-align: center;
+  position: relative;
+}
+
+.container{
+  max-width: 900px;
+  margin: auto;
+}
+
+
+.container #about{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.5); /* Menambahkan lapisan semi-transparan untuk teks */
+  border-radius: 8px;
+  
+}
+
+
+#location {
+  display: flex; /* Mengaktifkan Flexbox */
+  align-items: center; /* Vertikal center */
+  background-color: #F2E8C6;
+  min-height: 80px;
+  padding: 90px;
+  
+}
+#location p {
+  font-size: 18px;
+  margin-left: 20px; /* Jarak antara iframe dan teks */
+  flex: 1; /* Membuat paragraf mengisi ruang yang tersisa */
+  
+}
+
+#location iframe{
+  border-radius: 30px;
+  flex: 0 0 200px; /* Lebar tetap untuk iframe */
+
+}
+
+
+#about {
+  color: white;
+  background-color: #f9f9f9;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), 
+                    url('resource/museum-lapawawoi.jpg'); /* Gradient overlay dan gambar */
+  background-size: cover;
+  background-position: center right;
+  background-repeat: no-repeat;
+  min-height: 420px;
+}
+
+#about h1{
+  flex: 1;
+  padding-right: 20px;
+  text-align: left;
+  font-size: 50px;
+  margin-left: -200px;
+  /* margin-bottom: 40px;
+  margin-top: -50px; */
+}
+#about p{
+  flex: 1;
+  padding-right: 20px;
+  text-align: left;
+  font-size: 22px;
+  margin-left: -200px;
+}
+
+
+#contact{
+  background-color: #DAD4B5;
+  padding: 20px;
+}
+footer {
+  background-color: #982B1C;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+
